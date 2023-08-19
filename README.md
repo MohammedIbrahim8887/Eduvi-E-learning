@@ -9,7 +9,7 @@ These instructions will help you set up and run the Eduvi E-Learning Platform on
 ### Prerequisites
 
 - Node.js 
-- npm 
+- yarn
 
 ### Installation
 
@@ -20,7 +20,7 @@ These instructions will help you set up and run the Eduvi E-Learning Platform on
 
    cd Eduvi-E-learning
 
-   npm install
+   yarn install
    ```
 2 Run Application:
     ```
