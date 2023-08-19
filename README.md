@@ -30,9 +30,9 @@ These instructions will help you set up and run the Eduvi E-Learning Platform on
 ## Folder Structure
  The project follows a well-organized directory structure to maintain a clean and efficient codebase.
 
-    public: Contains static files accessible to the public, such as index.html and other assets.
+   `## public``: Contains static files accessible to the public, such as index.html and other assets.
     src: The main source code directory.
-        assets: Static assets like images, videos, and more.
+      assets: Static assets like images, videos, and more.
         components: Reusable UI components.
             common: Shared components like Header, Footer, etc.
             course: Components related to courses.
@@ -47,3 +47,5 @@ These instructions will help you set up and run the Eduvi E-Learning Platform on
     tsconfig.json: TypeScript configuration.
     vite.config.js: Vite configuration.
     README.md: Documentation for the project.
+
+   
