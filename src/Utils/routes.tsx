@@ -4,7 +4,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import Home from "../Pages/Home";
-import Error404 from "../Pages/404";
+import Error404 from "../Pages/ErrorPages/404";
 
 //Add your routes here
 
