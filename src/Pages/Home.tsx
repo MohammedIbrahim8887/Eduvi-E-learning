@@ -1,8 +1,12 @@
+import TestimonialCarousel from "../Components/Common/Carousel/TestimonialCarousel";
+
 const Home = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello World!</h1>
-    </>
+    <div className="p-16 flex flex-col justify-center align-center h-screen">
+      {/* add other homepage components here */}
+
+      <TestimonialCarousel />
+    </div>
   );
 };
 
