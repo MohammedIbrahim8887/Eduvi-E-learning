@@ -2,7 +2,7 @@ import TestimonialCarousel from "../Components/Common/Carousel/TestimonialCarous
 
 const Home = () => {
   return (
-    <div className="p-16 flex flex-col justify-center align-center h-screen">
+    <div className="md:p-16 max-md:p-10 flex flex-col justify-center align-center h-screen">
       {/* add other homepage components here */}
 
       <TestimonialCarousel />
