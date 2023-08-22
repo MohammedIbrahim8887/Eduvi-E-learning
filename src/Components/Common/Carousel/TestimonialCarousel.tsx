@@ -5,7 +5,7 @@ import "./pagination.css";
 
 const TestimonialCarousel = () => {
   return (
-    <div className="w-1/2 m-auto">
+    <div className="lg:w-1/2 max-lg:w-full m-auto">
       <p className="text-3xl font-semibold text-center py-8">
         What do our internees say?
       </p>
