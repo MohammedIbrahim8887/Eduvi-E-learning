@@ -1,4 +1,5 @@
-export interface CourseCardProps {
+
+ interface CourseCardProps {
     image?: string;
     rating?: number;
     description?: string;
@@ -7,4 +8,12 @@ export interface CourseCardProps {
     name?: string;
     students?: number;
   }
+
+
+interface TestimonialProps {
+  img?: string;
+  testimonial?: string;
+  name?: string;
+  occupation?: string;
+}
 

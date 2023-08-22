@@ -12,6 +12,7 @@ export default {
 
       },
       colors: {
+        "testimonial-card": "#EEF4FA",
         'card-bg' : 'white',
         'rating-color' : '#1C1E53',
         'desc-color' : '#282938',
