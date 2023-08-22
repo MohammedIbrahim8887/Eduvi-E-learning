@@ -1,10 +1,14 @@
+interface Props {
+  image: string;
+  adName: string;
+}
 
-const AdsCard = () => {
-    return (
-      <div className=" flex justify-center align-middle w-[100px] h-[100px] overflow-hidden p-2">
-        <img src="public/vite.svg" alt="Add" className=" w-full h-full object-cover"/>
-      </div>
-    )
-  }
-  
-  export default AdsCard
+const AdsCard: React.FC<Props> = ({ image, adName }) => {
+  return (
+    <div className="flex justify-center items-center w-[150px] h-auto overflow-hidden p-2">
+      <img src={image} alt={adName} className="w-full h-full object-contain" />
+    </div>
+  );
+};
+
+export default AdsCard;
