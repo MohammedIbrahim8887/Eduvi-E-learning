@@ -3,7 +3,7 @@ import StarRateRoundedIcon from '@mui/icons-material/StarRateRounded';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import imagee from './images/imagee.jpg';
-import {CourseCardProps}from '../types';
+// import {CourseCardProps}from '../types';
 
 const CourseCard: React.FC<CourseCardProps> = ({
   image = imagee,
