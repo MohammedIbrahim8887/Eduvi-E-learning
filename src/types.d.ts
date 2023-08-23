@@ -17,3 +17,9 @@ interface TestimonialProps {
   occupation?: string;
 }
 
+ interface Breadcrumb {
+  label?: string;
+  url?: string;
+}
+
+
