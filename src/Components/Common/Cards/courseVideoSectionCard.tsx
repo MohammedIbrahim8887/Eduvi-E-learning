@@ -1,3 +1,5 @@
+import TestimonialSampleImages from "../../../assets/images/TestimonialSampleImg.svg";
+
 interface Props {
   image: string;
   adName: string;
@@ -12,9 +14,9 @@ const CourseVideoSectionCard: React.FC<Props> = ({
   duration,
 }) => {
   return (
-    <div className=" w-[400px] h-auto p-3 rounded-md  grid gap-5 grid-flow-col">
-      <div className=" w-full col-span-2">
-        <img className=" w-full rounded-md" src={image} alt={adName} />
+    <div className=" w-[400px] h-auto p-3 rounded-md  grid  grid-flow-col bg-red-400">
+      <div className=" w-full col-span-2 pr-4">
+        <img className=" w-full max-h-16 rounded-md" src={image} alt={adName} />
       </div>
       <div className=" col-span-4 self-end w-full flex-row gap-0">
         <p className="text-xl ">{cardName}</p>
