@@ -3,6 +3,7 @@ import Logo from "../Ui/logo"
 import MouseOverPopover from "../Ui/popover"
 import  Avatar  from "../Ui/avater";
 import Selecte from "../Ui/selecte"
+import data from "../../Api/avater";
 
 
 
@@ -21,7 +22,7 @@ const Nav = () => {
       <Link text="About us" url="/Aboutus" />
       <Link text="Contact" url="./Contact" />
       <div className="ml-40">
-      <Avatar />
+      <Avatar  name="My Account" img="#"/>
       </div>
      
       </div>
