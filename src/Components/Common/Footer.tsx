@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           <p className="text-base font-light mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing.
           </p>
-          <div className="w-420 h-88 mx-auto mt-16 py-1 rounded-t-lg bg-yellow-300 flex flex-col text-black">
+          <div className="w-420 h-88 mx-auto mt-16 py-1 rounded-t-lg bg-yellow-200 flex flex-col text-black">
                 
             <div className="flex justify-evenly mb-2 font-light text-xs">
               <div >
