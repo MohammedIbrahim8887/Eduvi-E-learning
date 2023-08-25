@@ -1,3 +1,4 @@
+
 interface Props {
   image: string;
   adName: string;
@@ -5,10 +6,16 @@ interface Props {
 
 const AdsCard: React.FC<Props> = ({ image, adName }) => {
   return (
-    <div className="flex justify-center items-center w-[150px] h-auto overflow-hidden p-2">
+    <div className="flex justify-center items-center max-w-[390px] h-auto overflow-hidden bg-white">
       <img src={image} alt={adName} className="w-full h-full object-contain" />
     </div>
   );
 };
 
 export default AdsCard;
+// 'width: 
+// height: 444px
+// top: 810px
+// left: 970px
+// border-radius: 10px
+// 'C:\Users\Daneil\Desktop\Eduvi-E-Learning\Eduvi-E-learning\src\assets\images\kfc_add.webp
