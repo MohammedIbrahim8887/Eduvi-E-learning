@@ -22,3 +22,12 @@ label?: string;
 url?: string;
 }
 
+interface SimilarCoursesProps {
+  img?:string;
+  title?:string;
+  price?:number;
+  rating?:number;
+}
+interface RatingPoint {
+  rating:number
+}
