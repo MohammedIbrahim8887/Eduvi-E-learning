@@ -1,17 +1,16 @@
 import React from 'react';
 import { Button } from '@mui/material';
 
-const CoursesButton: React.FC<ButtonProps> = ({text,onClick}) => {
+const SubscribeButton: React.FC<ButtonProps> = ({text,onClick}) => {
   return (
     <div>
       <Button onClick={onClick} sx={{
-      borderRadius: '10px',
-      backgroundColor: '#fff', // Equivalent to bg-purple-600 in Tailwind CSS
+      borderRadius: '0px 10px 10px 0px',
+      backgroundColor: '#8b5cf6', // Equivalent to bg-purple-600 in Tailwind CSS
       '&:hover': {
-        backgroundColor: '#FF6652', // Equivalent to hover:bg-purple-700 in Tailwind CSS
-        color: '#fff'
+        backgroundColor: '#7c3aed', // Equivalent to hover:bg-purple-700 in Tailwind CSS
       },
-      color: '#0A033C',
+      color: 'white',
       boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
       paddingLeft: 2, // Equivalent to px-3 in Tailwind CSS
       paddingRight: 2, // Equivalent to px-3 in Tailwind CSS
@@ -23,7 +22,7 @@ const CoursesButton: React.FC<ButtonProps> = ({text,onClick}) => {
         lineHeight: '20px',
         letterSpacing: '0em',
         textAlign: 'center',
-        width: 148,
+        width: 142,
         height: 60,
         // top: 3050,
         // left: 831,
@@ -34,4 +33,4 @@ const CoursesButton: React.FC<ButtonProps> = ({text,onClick}) => {
   )
 }
 
-export default CoursesButton
+export default SubscribeButton
