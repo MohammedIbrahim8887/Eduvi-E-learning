@@ -1,4 +1,24 @@
-interface AvaterProps {
-    name?:string
-    img?:string
+
+interface CourseCardProps {
+  image?: string;
+  rating?: number;
+  description?: string;
+  videos?: number;
+  duration?: number;
+  name?: string;
+  students?: number;
 }
+
+
+interface TestimonialProps {
+img?: string;
+testimonial?: string;
+name?: string;
+occupation?: string;
+}
+
+interface Breadcrumb {
+label?: string;
+url?: string;
+}
+
