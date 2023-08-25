@@ -12,7 +12,8 @@ const Nav = () => {
   return (
     <div className="flex align-middle mx-10 py-5 bg-white ">
       <div className="ml-3"><Logo  /></div>
-      <div className="ml-auto hidden md:flex my-auto  ">
+
+      <div className="ml-auto hidden md:flex   ">
       <Link text="Home"  url="/"/>
       <Link text="Courses" url="/Courses" />
       <div>
@@ -21,15 +22,15 @@ const Nav = () => {
       
       <Link text="About us" url="/Aboutus" />
       <Link text="Contact" url="./Contact" />
+
       <div className="ml-40">
       <Avatar  name="My Account" img="#"/>
       </div>
      
       </div>
+
       <div className="ml-auto md:hidden ">
       <MouseOverPopover />
-      
-       
       </div>
      
     </div>

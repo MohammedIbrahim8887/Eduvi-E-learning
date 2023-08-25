@@ -26,15 +26,15 @@ export default function avater({name,img}:avaterProps) {
   const id = open ? 'simple-popover' : undefined;
 
   return (
-    <div className='flex  text-center '>
+    <div className='flex text-center '>
       {name?(<span>{name}</span>):("My Account")}
-      <Button aria-describedby={id} variant="text" onClick={handleClick}>
-      <div className='flex'> <span className='ml-3  relative bottom-5 mt-3 hover:shadow-lg cursor-pointer '  >
-      <AccountCircleIcon  sx={{fontSize:40}}/>
+     
+      
+      <div className='flex'> <span className='ml-3  mt-3 hover:shadow-lg cursor-pointer '  >
+      <AccountCircleIcon  sx={{fontSize:40}}  onClick={handleClick}/>
       
         {/* {img?(<img className='w-5 h-5 rounded-full' src="img" alt="s" />):(<AccountCircleIcon />)} */}
        </span></div>
-      </Button>
       <Popover
         id={id}
         open={open}
