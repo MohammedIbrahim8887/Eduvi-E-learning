@@ -1,4 +1,3 @@
-
 interface CourseCardProps {
   image?: string;
   rating?: number;
@@ -31,3 +30,4 @@ interface SimilarCoursesProps {
 interface RatingPoint {
   rating:number
 }
+
