@@ -1,16 +1,16 @@
- interface CourseCardProps {
-    image?: string;
-    rating?: number;
-    description?: string;
-    videos?: number;
-    duration?: number;
-    name?: string;
-    students?: number;
-    courseType? : string,
-    id: number;
-  }
+interface CourseCardProps {
+  image?: string;
+  rating?: number;
+  description?: string;
+  videos?: number;
+  duration?: number;
+  name?: string;
+  students?: number;
+  courseType?: string;
+  id: number;
+}
 
-interface QuoteProps{
+interface QuoteProps {
   title?: string;
   quote?: string;
 }
@@ -21,18 +21,26 @@ interface TestimonialProps {
   occupation?: string;
 }
 
+interface PasswordFieldProps {
+  register: UseFormRegister<{
+    password: string;
+    email: string;
+    fullname: string;
+  }>;
+  error: string | undefined;
+}
 
 interface Breadcrumb {
-label?: string;
-url?: string;
+  label?: string;
+  url?: string;
 }
 
 interface SimilarCoursesProps {
-  img?:string;
-  title?:string;
-  price?:number;
-  rating?:number;
+  img?: string;
+  title?: string;
+  price?: number;
+  rating?: number;
 }
 interface RatingPoint {
-  rating:number
+  rating: number;
 }
