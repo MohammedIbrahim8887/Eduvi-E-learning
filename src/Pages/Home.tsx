@@ -1,13 +1,15 @@
-import TestimonialCarousel from "../Components/Common/Carousel/TestimonialCarousel";
-import AdsCard from "../Components/Course/AdsCard";
-import vite from '../../public/vite.svg';
+import { Button } from "@mui/material";
+import { useState } from "react";
+import AuthModal from "../Components/Modals/AuthModal";
 
 const Home = () => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <div className="md:p-16 max-md:p-10 flex flex-col justify-center align-center h-screen">
-      {/* add other homepage components here */}
-      <AdsCard image={vite} adName="Vite Ad" /> {/*move this component to course detail page*/}
-      <TestimonialCarousel />
+      <Button onClick={handleOpen}>Open Modal</Button>
+      <AuthModal onClose={handleClose} open={open} />
     </div>
   );
 };
