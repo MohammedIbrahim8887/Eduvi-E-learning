@@ -5,6 +5,7 @@ import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
 import imagee from '../../../assets/images/imagee.jpg';
 import {CourseCardProps} from '../types';
 
+
 const CourseCard: React.FC<CourseCardProps> = ({
   image = imagee,
   rating = 4.9,

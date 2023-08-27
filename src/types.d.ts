@@ -1,4 +1,3 @@
-
  interface CourseCardProps {
     image?: string;
     rating?: number;
@@ -22,3 +21,18 @@ interface TestimonialProps {
   occupation?: string;
 }
 
+
+interface Breadcrumb {
+label?: string;
+url?: string;
+}
+
+interface SimilarCoursesProps {
+  img?:string;
+  title?:string;
+  price?:number;
+  rating?:number;
+}
+interface RatingPoint {
+  rating:number
+}
