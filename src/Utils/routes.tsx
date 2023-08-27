@@ -5,9 +5,6 @@ import {
 } from "react-router-dom";
 import Home from "../Pages/Home";
 import Error404 from "../Pages/ErrorPages/404";
-import BreadcrumbTest from "../Components/Common/Breadcrumbs";
-import Testimonial from "../Components/Common/Cards/Testimonial";
-import TestimonialCarousel from "../Components/Common/Carousel/TestimonialCarousel";
 
 //Add your routes here
 
