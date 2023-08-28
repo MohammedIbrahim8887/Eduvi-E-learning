@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 const Footer: React.FC = () => {
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
               </ul>
             </div>
             
-            <div className="ml-8 ">
+            {/* <div className="ml-8 ">
               <h3 className="text-lg font-medium mb-2">Program</h3>
               <ul className=" list-inside">
               <li className="text-base font-normal mb-1">
@@ -66,9 +66,36 @@ const Footer: React.FC = () => {
                      <a href="">Frontend</a>                    
                      </li>
               </ul>
-            </div>
+            </div> */}
             
-            <div className="ml-8  ">
+            <div className="ml-8">
+              <h3 className="text-lg font-medium mb-2">Program</h3>
+              
+              <ul className="list-inside">
+
+                <li className="text-base font-normal mb-1">
+                  <Link to="/program/free">
+                    Free to study  
+                  </Link>
+                </li>
+
+                <li className="text-base font-normal mb-1">
+                  <Link to="/program/backend">
+                    Backend
+                  </Link>
+                </li>
+
+                <li className="text-base font-normal mb-1">  
+                  <Link to="/program/frontend">
+                    Frontend
+                  </Link>      
+                </li>
+
+              </ul>
+
+            </div>
+           
+            {/* <div className="ml-8  ">
               <h3 className="text-lg font-medium mb-2">Support</h3>
               <ul className=" list-inside">
               <li className="text-base font-normal mb-1">
@@ -81,7 +108,34 @@ const Footer: React.FC = () => {
               <a href="http://">Provision</a>
              </li>
               </ul>
-            </div>
+            </div> */}
+
+          <div className="ml-8">
+            <h3 className="text-lg font-medium mb-2">Support</h3>
+
+            <ul className="list-inside">
+
+              <li className="text-base font-normal mb-1">
+                <Link to="/privacy">
+                  Privacy Policy  
+                </Link>
+              </li>
+
+              <li className="text-base font-normal mb-1">
+                <Link to="/provision"> 
+                  Provision
+                </Link>
+              </li>
+
+              <li className="text-base font-normal mb-1">
+                <Link to="/provision">
+                  Provision
+                </Link>
+              </li>
+
+            </ul>
+
+          </div>
           </div>
        
        
