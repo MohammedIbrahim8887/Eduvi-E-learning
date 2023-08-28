@@ -53,20 +53,7 @@ const Footer: React.FC = () => {
               </ul>
             </div>
             
-            {/* <div className="ml-8 ">
-              <h3 className="text-lg font-medium mb-2">Program</h3>
-              <ul className=" list-inside">
-              <li className="text-base font-normal mb-1">
-                       <a href="http://">Free to study</a>
-                     </li>
-                     <li className="text-base font-normal mb-1">
-                       <a href="http://">Backend</a>                  
-                     </li>
-                     <li className="text-base font-normal mb-1">
-                     <a href="">Frontend</a>                    
-                     </li>
-              </ul>
-            </div> */}
+           
             
             <div className="ml-8">
               <h3 className="text-lg font-medium mb-2">Program</h3>
@@ -94,22 +81,7 @@ const Footer: React.FC = () => {
               </ul>
 
             </div>
-           
-            {/* <div className="ml-8  ">
-              <h3 className="text-lg font-medium mb-2">Support</h3>
-              <ul className=" list-inside">
-              <li className="text-base font-normal mb-1">
-               <a href="http://">Privacy policy</a>
-             </li>
-             <li className="text-base font-normal mb-1">
-               <a href="http://">Provision</a>
-             </li>
-             <li className="text-base font-normal mb-1">
-              <a href="http://">Provision</a>
-             </li>
-              </ul>
-            </div> */}
-
+          
           <div className="ml-8">
             <h3 className="text-lg font-medium mb-2">Support</h3>
 
