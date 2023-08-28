@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import Home from "../Pages/Home";
 import Error404 from "../Pages/ErrorPages/404";
-import Footer from "../Components/Common/Footer";
 //Add your routes here
 
 const router = createBrowserRouter(
@@ -17,7 +16,6 @@ const router = createBrowserRouter(
         element={
           <>
             <Home />
-            <Footer />  
           </>
         }
       />
