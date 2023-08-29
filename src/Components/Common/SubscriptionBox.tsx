@@ -1,5 +1,8 @@
 import React from 'react';
 import {useForm,SubmitHandler} from 'react-hook-form';
+import SubscribeButton from './SubscribeButton';
+
+
 
 type FormValues = {
   email:string;
@@ -33,17 +36,19 @@ const SubscriptionBox: React.FC = () => {
             {...register("email", {required: "Email is required"})}
             className="w-full sm:w-auto h-10 px-4 py-2 rounded-l-lg rounded-bl-lg 
             mb-2 sm:mb-0  placeholder:text-black-400 placeholder:italic 
-            bg-white bg-opacity-10 focus:bg-opacity-20 duration-150"
+            bg-black bg-opacity-25 focus:bg-opacity-20 duration-150 focus:outline-none focus:border-gray-300  text-white focus:bg-black/25 focus:text-white"
             placeholder="enter your email"
              />
-            {errors.email && <p className="text-red-500">{errors.email.message}</p> }
+            
+            <SubscribeButton
+              onClick={handleSubmit(onSubmit)}
+              text="Subscribe"
+            />
+           
 
-            <button 
-              type="submit" 
-              className="bg-blue-500 p-2 rounded hover:bg-blue-600">
-              Subscribe
-            </button>
+
         </div>
+            {errors.email && <p className="text-red-500 ml-1">{errors.email.message}</p> }
 
       </form>
     </div>

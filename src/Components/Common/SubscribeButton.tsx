@@ -23,7 +23,7 @@ const SubscribeButton: React.FC<ButtonProps> = ({text,onClick}) => {
         letterSpacing: '0em',
         textAlign: 'center',
         width: 142,
-        height: 60,
+        height: 40,
         // top: 3050,
         // left: 831,
     }}>
