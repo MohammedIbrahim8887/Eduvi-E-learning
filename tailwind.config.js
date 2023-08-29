@@ -31,6 +31,13 @@ export default {
         "quote-color": "#5D5A6F",
         "list-back": "#fff",
       },
+      width:{
+        "Apply-width": "1131px",
+      },
+      fontSize:{
+        "Apply-font-size": "100px",
+
+      }
     },
   },
   plugins: [],
