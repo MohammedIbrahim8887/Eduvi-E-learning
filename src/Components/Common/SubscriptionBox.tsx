@@ -1,9 +1,6 @@
 import React from 'react';
 import {useForm,SubmitHandler} from 'react-hook-form';
 import SubscribeButton from './SubscribeButton';
-import { validate } from 'json-schema';
-
-
 
 type FormValues = {
   email:string;
