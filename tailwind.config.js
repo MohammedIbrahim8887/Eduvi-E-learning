@@ -36,7 +36,6 @@ export default {
       },
       fontSize:{
         "Apply-font-size": "100px",
-
       }
     },
   },
