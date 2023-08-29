@@ -1,6 +1,7 @@
 import React from 'react';
 import {useForm,SubmitHandler} from 'react-hook-form';
 import SubscribeButton from './SubscribeButton';
+import { validate } from 'json-schema';
 
 
 
@@ -33,7 +34,17 @@ const SubscriptionBox: React.FC = () => {
       <form action="" onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-row justify-center mt-8">
           <input type="email"
-            {...register("email", {required: "Email is required"})}
+            {...register("email", {
+              required: "Email is required",
+            
+              validate:{
+                matchesEmailFormat: value => {
+                  if(!/^\S+@\S+$/.test(value)) {
+                    return "Invalid email format";
+                  }
+            } }
+           
+           } )}
             className="w-full sm:w-auto h-10 px-4 py-2 rounded-l-lg rounded-bl-lg 
             mb-2 sm:mb-0  placeholder:text-black-400 placeholder:italic 
             bg-black bg-opacity-25 focus:bg-opacity-20 duration-150 focus:outline-none focus:border-gray-300  text-white focus:bg-black/25 focus:text-white"
@@ -49,7 +60,9 @@ const SubscriptionBox: React.FC = () => {
 
         </div>
             {errors.email && <p className="text-red-500 ml-1">{errors.email.message}</p> }
-
+            {errors.email?.type === 'isValidEmail' && (
+                   <p>Invalid email format</p>  
+)}
       </form>
     </div>
   );
