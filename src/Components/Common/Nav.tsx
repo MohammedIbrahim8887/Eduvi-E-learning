@@ -6,8 +6,6 @@ import Selecte from "../Ui/selecte"
 
 
 
-
-
 const Nav = () => {
   return (
     <div className="flex align-middle mx-10 py-5 bg-white ">
@@ -15,13 +13,13 @@ const Nav = () => {
 
       <div className="items-center ml-auto  hidden lg:flex  ">
       <Link text="Home"  url="/"/>
-      <Link text="Courses" url="/Courses" />
+      <Link text="Courses" url="././Pages/CoursePage.tsx" />
       <div>
       <Selecte />
       </div>
       
       <Link text="About us" url="/Aboutus" />
-      <Link text="Contact" url="./Contact" />
+      <Link text="Contact" url="../Contact" />
 
       <div className="ml-40">
       <Avatar  name="My Account" img={null} />

@@ -3,6 +3,7 @@ import { useState } from "react";
 import AuthModal from "../Components/Modals/AuthModal";
 import Nav from "../Components/Common/Nav";
 import BreadCrumbs from "../Components/Common/Breadcrumbs";
+import CoursePage from "./CoursePage";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -16,6 +17,8 @@ const Home = () => {
         <Button onClick={handleOpen}>Open Modal</Button>
         <AuthModal onClose={handleClose} open={open} />
       </div>
+      <CoursePage />
+      
     </>
   );
 };
