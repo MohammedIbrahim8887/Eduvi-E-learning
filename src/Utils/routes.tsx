@@ -11,11 +11,24 @@ import SubscriptionBox from "../Components/Common/SubscriptionBox";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
-      <Route index element={<Home />} />
-      <SubscriptionBox />
+    <Route>      
+    <Route 
+        index 
+        element={
+          <>
+            <Home />
+          </>
+        }
+      />
       <Route path="*" element={<Error404 />} />
-    </Route>
+      <Route path="/program/free" element={''} />
+      <Route path="/program/backend" element={''} />
+      <Route path="/program/frontend" element={''} />
+      <Route path="/privacy" element={''} />
+      <Route path="/provision" element={''} />
+      <Route path="/provision" element={''} />
+    
+    </Route >
   )
 );
 

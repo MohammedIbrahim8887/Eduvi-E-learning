@@ -70,4 +70,3 @@ const SubscriptionBox: React.FC = () => {
 };
 
 export default SubscriptionBox;
-
