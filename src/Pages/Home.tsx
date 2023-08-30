@@ -4,6 +4,7 @@ import AuthModal from "../Components/Modals/AuthModal";
 import Nav from "../Components/Common/Nav";
 import BreadCrumbs from "../Components/Common/Breadcrumbs";
 import ApplyCard from "../Components/Common/Cards/ApplyCard";
+import HeaderContainer from "../Components/Common/HeaderContainer";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -12,11 +13,17 @@ const Home = () => {
   return (
     <>
       <Nav />
-      <BreadCrumbs />
+      <HeaderContainer>
+        <div>
+          Hello Jima
+        </div>
+      </HeaderContainer>
       <div className="md:p-16 max-md:p-10 flex flex-col justify-center align-center h-screen">
         <Button onClick={handleOpen}>Open Modal</Button>
         <AuthModal onClose={handleClose} open={open} />
       </div>
+      
+
       <ApplyCard />
     </>
   );
