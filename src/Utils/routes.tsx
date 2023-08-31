@@ -6,12 +6,12 @@ import {
 import Home from "../Pages/Home";
 import Error404 from "../Pages/ErrorPages/404";
 import CoursesDetails from "../Pages/CoursesDetails";
+import SubscriptionBox from "../Components/Common/SubscriptionBox";
 //Add your routes here
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
-      
+    <Route>      
     <Route 
         index 
         element={
@@ -20,7 +20,6 @@ const router = createBrowserRouter(
           </>
         }
       />
-    
       <Route path="*" element={<Error404 />} />
       <Route path="/program/free" element={''} />
       <Route path="/program/backend" element={''} />
