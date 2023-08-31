@@ -16,7 +16,7 @@ const ApplyButton: React.FC<ButtonProps> = ({text,onClick}) => {
       paddingRight: 0, // Equivalent to px-3 in Tailwind CSS
       paddingTop: 2, // Equivalent to py-3 in Tailwind CSS
       paddingBottom: 2, // Equivalent to py-3 in Tailwind CSS
-      fontFamily: 'Inter',
+      fontFamily: 'initial',
         fontSize: 24,
         fontWeight: 500,
         lineHeight: '20px',
