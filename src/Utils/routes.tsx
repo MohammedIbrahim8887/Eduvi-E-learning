@@ -5,8 +5,8 @@ import {
 } from "react-router-dom";
 import Home from "../Pages/Home";
 import Error404 from "../Pages/ErrorPages/404";
+import CoursesDetails from "../Pages/CoursesDetails";
 import SubscriptionBox from "../Components/Common/SubscriptionBox";
-
 //Add your routes here
 
 const router = createBrowserRouter(
@@ -27,6 +27,7 @@ const router = createBrowserRouter(
       <Route path="/privacy" element={''} />
       <Route path="/provision" element={''} />
       <Route path="/provision" element={''} />
+      <Route path="/:id" element={<CoursesDetails />} />
     
     </Route >
   )
