@@ -17,7 +17,6 @@ const Home = () => {
         <Button onClick={handleOpen}>Open Modal</Button>
         <AuthModal onClose={handleClose} open={open} />
       </div>
-      <CoursePage />
       
     </>
   );
