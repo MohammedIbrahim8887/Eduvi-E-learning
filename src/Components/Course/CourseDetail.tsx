@@ -1,7 +1,7 @@
 
 const CourseDetail = () => {
   return (
-    <div>CourseDetail</div>
+    <div className="font-bold text-3xl">CourseDetail</div>
   )
 }
 
