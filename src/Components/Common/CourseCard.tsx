@@ -14,7 +14,6 @@ const CourseCard: React.FC<CourseCardProps> = ({
   duration = 4.5,
   name = `Dasar Pemrograman WEB`,
   students = 1900,
-  courseType = '',
   id = 1,
 }) => {
   const handleClick = (Id: number) => {

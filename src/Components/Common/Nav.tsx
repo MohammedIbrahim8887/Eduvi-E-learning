@@ -10,8 +10,11 @@ import Selecte from "../Ui/selecte"
 
 const Nav = () => {
   return (
+  
+
+    
     <div className="flex align-middle mx-10 py-5 bg-white ">
-      <div className="ml-3"><Logo  /></div>
+      <div className="ml-3" ><Logo  /></div>
 
       <div className="items-center ml-auto  hidden lg:flex  ">
       <Link text="Home"  url="/"/>
@@ -34,6 +37,7 @@ const Nav = () => {
       </div>
      
     </div>
+  
   )
 }
 

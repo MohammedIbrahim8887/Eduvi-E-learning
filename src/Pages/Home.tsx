@@ -12,7 +12,6 @@ import TestimonialCarousel from "../Components/Common/Carousel/TestimonialCarous
 import SubscriptionBox from "../Components/Common/SubscriptionBox";
 import Footer from "../Components/Common/Footer";
 
-
 const Home = () => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -27,12 +26,6 @@ const Home = () => {
       <TestimonialCarousel/>
       <SubscriptionBox/>
       <Footer/>
-      {/* <BreadCrumbs />
-      <div className="md:p-16 max-md:p-10 flex flex-col justify-center align-center h-screen">
-        <Button onClick={handleOpen}>Open Modal</Button>
-        <AuthModal onClose={handleClose} open={open} />
-      </div> */}
-    </>
   );
 };
 
