@@ -4,18 +4,15 @@ import MouseOverPopover from "../Ui/popover"
 import  Avatar  from "../Ui/avater";
 import Selecte from "../Ui/selecte"
 
-
-
-
-
 const Nav = () => {
   return (
-    <div className="flex align-middle mx-10 py-5 bg-white ">
+    <div className="flex align-middle mx-10 py-5 bg-[#f5f5f5] ">
       <div className="ml-3"><Logo  /></div>
 
       <div className="items-center ml-auto  hidden lg:flex  ">
       <Link text="Home"  url="/"/>
-      <Link text="Courses" url="/Courses" />
+      <NavLink to={'/CoursePage'} >Course</NavLink>
+      {/* <NavLink to={'CoursePage'} >Course </NavLink> */}
       <div>
       <Selecte />
       </div>
@@ -24,7 +21,7 @@ const Nav = () => {
       <Link text="Contact" url="./Contact" />
 
       <div className="ml-40">
-      <Avatar  name="My Account" img={null} />
+      <Avatar  name="My Account" img="#" />
       </div>
      
       </div>
@@ -34,6 +31,7 @@ const Nav = () => {
       </div>
      
     </div>
+  
   )
 }
 

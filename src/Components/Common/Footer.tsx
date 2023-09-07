@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   const currentYear:number = new Date().getFullYear();
 
     return (
-     <footer className="bg-gray-900 text-white py-8">
+     <footer className="bg-[#0A033C] text-white py-8">
       <div className=" justify-content mx-auto w-5/6 gap-16 flex justify-between flex-row md:flex ">
        
         {/* Column 1 */}
@@ -15,8 +15,7 @@ const Footer: React.FC = () => {
           <p className="text-base font-light mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing.
           </p>
-          <div className="w-420 h-88 mx-auto mt-16 py-1 rounded-t-lg bg-yellow-200 flex flex-col text-black">
-                
+          <div className="w-4/5 h-88 mx-auto ml-0 mt-16 py-1 rounded-t-lg bg-yellow-200 flex flex-col text-black">              
             <div className="flex justify-evenly mb-2 font-light text-xs">
               <div >
                 <span>Email:</span>
@@ -119,25 +118,3 @@ const Footer: React.FC = () => {
    );
       };
 export default Footer; 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
