@@ -1,8 +1,5 @@
 import RatingCard from "./RatingCard"
 
-
-
-
 function SimilarCourseCard({
     img,
     title='The There Musketeers',
@@ -10,7 +7,7 @@ function SimilarCourseCard({
     rating=5
     }: SimilarCoursesProps) {
   return (
-    <div className="flex flex-row p-4 rounded-lg bg-white gap-4">
+    <div className="flex flex-row p-4 rounded-lg bg-white gap-4 mx-10 ">
         <div>
             <img src={img} alt="course profile" />
         </div>
