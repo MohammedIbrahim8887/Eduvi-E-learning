@@ -16,7 +16,7 @@ const ApplyButton: React.FC<ButtonProps> = ({text,onClick}) => {
       paddingRight: 0, // Equivalent to px-3 in Tailwind CSS
       paddingTop: 2, // Equivalent to py-3 in Tailwind CSS
       paddingBottom: 2, // Equivalent to py-3 in Tailwind CSS
-      fontFamily: 'Open Sans',
+      fontFamily: 'initial',
         fontSize: 24,
         fontWeight: 500,
         lineHeight: '20px',
@@ -24,8 +24,6 @@ const ApplyButton: React.FC<ButtonProps> = ({text,onClick}) => {
         textAlign: 'center',
         width: 117,
         height: 52.97043228149414,
-        // top: 1982,
-        // left: 1135,
     }}>
     {text}
   </Button>
