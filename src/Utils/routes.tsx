@@ -12,9 +12,9 @@ import SubscriptionBox from "../Components/Common/SubscriptionBox";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>      
-    <Route 
-        index 
+    <Route>
+      <Route
+        index
         element={
           <>
             <Home />
