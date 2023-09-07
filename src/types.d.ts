@@ -60,3 +60,31 @@ interface CourseCardProps {
     onClick?: () => void;
   
   }
+
+  export interface Timestamp {
+    time: number;
+  }
+  
+  interface TimestampPlaylistProps {
+    timestamps: Timestamp[];
+    onSeek: (time: number) => void;
+  }
+  
+  interface TimestampProps {
+    time: number;
+    onClick: () => void;
+  }
+  
+  interface VideoProps {
+    src: string;
+    timestamps: Timestamp[];
+    poster?: '../../assets/images/poster.jpg'; 
+    autoplay?: false;
+    controls?: true;
+    loop?: false;
+    muted?: false;
+    preload?: 'auto' | 'metadata' | 'none';
+    onPlay?(): void;
+    onPause?(): void;
+    onEnded?(): void;
+  }
