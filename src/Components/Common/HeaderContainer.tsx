@@ -1,7 +1,6 @@
 import { Box, Theme, useMediaQuery } from "@mui/material"
 import BreadCrumbs from "./Breadcrumbs"
 
-
 interface HeaderContainerProps {
     children: React.ReactNode;
   }

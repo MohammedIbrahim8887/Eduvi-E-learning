@@ -1,9 +1,3 @@
-import React from 'react';
-import StarRateRoundedIcon from '@mui/icons-material/StarRateRounded';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
-import imagee from '../../../assets/images/imagee.jpg';
-// import {CourseCardProps} from '../../../types';
 interface CourseCardProps {
     image?: string;
     rating?: number;
@@ -15,7 +9,6 @@ interface CourseCardProps {
     courseType?: string;
     id: number;
   }
-  
 
 const CourseCard: React.FC<CourseCardProps> = ({
   image = imagee,

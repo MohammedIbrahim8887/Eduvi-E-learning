@@ -1,8 +1,3 @@
-// import { Course } from './types';
-
-
-
-
 interface Course {
   
   title: string;
@@ -23,9 +18,6 @@ interface Instructor {
   name: string;
   bio: string;
 }
-
-
-
 
 interface CourseDetailsProps {
   course:Course;

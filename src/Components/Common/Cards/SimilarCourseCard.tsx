@@ -1,6 +1,5 @@
 import RatingCard from "./RatingCard"
 
-
 function SimilarCourseCard({
     img,
     title='The There Musketeers',
